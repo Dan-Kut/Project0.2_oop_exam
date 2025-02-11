@@ -1,11 +1,10 @@
-﻿  ApartmentManager.cpp
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets(77,5): warning : Access to the path 'c:\users\kutum\source\repos\project6_dz_oop\x64\debug\project0.2_oop_exam.exe' is denied.
+  Apartament.cpp
+  ApartmentManager.cpp
+  IApartament.cpp
+  LuxuryApartament.cpp
   LuxuryStudioApartament.cpp
-C:\Users\kutum\source\repos\Project6_dz_oop\Project0.2_oop_exam\ApartmentManager.cpp(187,21): error C2664: 'void ApartmentManager::addApartment(std::shared_ptr<IApartament>)': cannot convert argument 1 from 'std::shared_ptr<LuxuryStudioApartament>' to 'std::shared_ptr<IApartament>'
-      C:\Users\kutum\source\repos\Project6_dz_oop\Project0.2_oop_exam\ApartmentManager.cpp(187,69):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kutum\source\repos\Project6_dz_oop\Project0.2_oop_exam\ApartmentManager.cpp(6,24):
-      see declaration of 'ApartmentManager::addApartment'
-      C:\Users\kutum\source\repos\Project6_dz_oop\Project0.2_oop_exam\ApartmentManager.cpp(187,21):
-      while trying to match the argument list '(std::shared_ptr<LuxuryStudioApartament>)'
-  
+  Project0.2_oop_exam.cpp
+  StudioApartament.cpp
   Generating Code...
+LINK : fatal error LNK1104: cannot open file 'C:\Users\kutum\source\repos\Project6_dz_oop\x64\Debug\Project0.2_oop_exam.exe'

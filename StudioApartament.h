@@ -1,7 +1,6 @@
 #pragma once
 #include "Apartament.h"
-class StudioApartament :
-    public Apartament
+class StudioApartament : virtual public Apartament
 {
 private:
     bool openLayout;

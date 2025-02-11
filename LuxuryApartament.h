@@ -1,6 +1,6 @@
 #pragma once
 #include "Apartament.h"
-class LuxuryApartament : public Apartament
+class LuxuryApartament : virtual public Apartament
 {
 private:
     string conciergeService;

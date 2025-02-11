@@ -143,7 +143,7 @@ void ApartmentManager::menu()
             {
             case 1:
                 int typeChoice;
-                cout << "Select Apartment Type: 1 - Standard, 2 - Luxury, 3 - Studio, 4 - Luxury Studio: ";
+                cout << "Select Apartment Type: 1 - Standard, 2 - Luxury, 3 - Studio"; //<<  4 - Luxury Studio: ;
                 cin >> typeChoice;
                 cout << "Enter address: ";
                 cin.ignore();
@@ -173,7 +173,7 @@ void ApartmentManager::menu()
                     cin >> openLayout;
                     addApartment(make_shared<StudioApartament>(address, price, openLayout));
                 }
-                else if (typeChoice == 4)
+               else if (typeChoice == 4)
                 {
                     string conciergeService;
                     bool privatePool, openLayout;
@@ -184,7 +184,8 @@ void ApartmentManager::menu()
                     cin >> privatePool;
                     cout << "Open layout (1 - Yes, 0 - No): ";
                     cin >> openLayout;
-                    //addApartment(make_shared<LuxuryStudioApartament>(address, price, conciergeService, privatePool, openLayout));
+                    IApartament* apart = new LuxuryStudioApartament { address, price, conciergeService, privatePool, openLayout };
+                    //addApartment(make_shared<IApartament>(apart));
                 }
                 else
                 {

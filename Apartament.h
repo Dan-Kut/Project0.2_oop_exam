@@ -1,6 +1,6 @@
 #pragma once
 #include "IApartament.h"
-class Apartament : public IApartament
+class Apartament : virtual public IApartament
 {
 protected:
     string address;
