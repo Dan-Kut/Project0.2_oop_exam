@@ -1,0 +1,11 @@
+﻿  ApartmentManager.cpp
+  LuxuryStudioApartament.cpp
+C:\Users\kutum\source\repos\Project6_dz_oop\Project0.2_oop_exam\ApartmentManager.cpp(187,21): error C2664: 'void ApartmentManager::addApartment(std::shared_ptr<IApartament>)': cannot convert argument 1 from 'std::shared_ptr<LuxuryStudioApartament>' to 'std::shared_ptr<IApartament>'
+      C:\Users\kutum\source\repos\Project6_dz_oop\Project0.2_oop_exam\ApartmentManager.cpp(187,69):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kutum\source\repos\Project6_dz_oop\Project0.2_oop_exam\ApartmentManager.cpp(6,24):
+      see declaration of 'ApartmentManager::addApartment'
+      C:\Users\kutum\source\repos\Project6_dz_oop\Project0.2_oop_exam\ApartmentManager.cpp(187,21):
+      while trying to match the argument list '(std::shared_ptr<LuxuryStudioApartament>)'
+  
+  Generating Code...
